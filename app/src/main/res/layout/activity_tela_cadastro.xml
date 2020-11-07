@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telaCadastro"
+    android:background="@drawable/loginbackground">
+
+
+    <EditText
+        android:id="@+id/editTextTextNomeCad"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"
+        android:hint="Nome"
+        android:textColorHint="#73F5F5F5"
+        android:textSize="20sp"
+        android:ems="10"
+
+        android:drawableLeft="@drawable/ic_user"
+        android:paddingLeft="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailCad"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:textColorHint="#73F5F5F5"
+        android:textSize="20sp"
+        android:ems="10"
+
+        android:drawableLeft="@drawable/ic_senha"
+        android:paddingLeft="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editTextTextNomeCad"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/editTextTextSenhaCad"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"
+        android:hint="Senha"
+        android:textColorHint="#73F5F5F5"
+        android:textSize="20sp"
+        android:ems="10"
+
+        android:drawableLeft="@drawable/ic_senha"
+        android:paddingLeft="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/editTextTextEmailCad"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:id="@+id/btnentrar"
+
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttonshape"
+
+        android:onClick="Entrar"
+
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+
+        android:text="Cadastrar"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</RelativeLayout>
