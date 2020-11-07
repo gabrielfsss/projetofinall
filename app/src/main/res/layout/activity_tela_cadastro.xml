@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/loginbackground"
+    android:background="#363636"
     tools:context=".telaCadastro">
 
 
@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
 
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="260dp"
         android:drawableLeft="@drawable/ic_user"
         android:ems="10"
         android:hint="Nome"
@@ -24,7 +24,8 @@
         android:paddingLeft="10dp"
 
         android:textColorHint="#73F5F5F5"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="#D3D3D3"/>
 
     <EditText
         android:id="@+id/txtNome"
@@ -43,7 +44,8 @@
 
         android:paddingLeft="10dp"
         android:textColorHint="#73F5F5F5"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="#D3D3D3"/>
 
     <EditText
         android:id="@+id/txtSenha"
@@ -62,7 +64,8 @@
 
         android:paddingLeft="10dp"
         android:textColorHint="#73F5F5F5"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="#D3D3D3"/>
 
     <Button
         android:id="@+id/btnentrar"

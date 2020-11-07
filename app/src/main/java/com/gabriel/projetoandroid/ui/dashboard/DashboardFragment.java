@@ -1,4 +1,4 @@
-package com.gabriel.projetoandroid.ui.home;
+package com.gabriel.projetoandroid.ui.dashboard;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,16 +20,16 @@ import com.gabriel.projetoandroid.MainActivity;
 import com.gabriel.projetoandroid.R;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class HomeFragment extends Fragment {
+public class DashboardFragment extends Fragment {
 
-    private Button btn2;
+    private Button btnlogout;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+        View root = inflater.inflate(R.layout.activity_fragment_dashboard, container, false);
 
-        Button btn2 = (Button) root.findViewById(R.id.button2);
+        Button btn2 = (Button) root.findViewById(R.id.btnlogout);
 
         btn2.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -46,5 +46,4 @@ public class HomeFragment extends Fragment {
 
         return root;
     }
-
 }

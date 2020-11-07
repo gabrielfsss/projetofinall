@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".telasApp"
-            android:label="@string/title_activity_telas_app"></activity>
+            android:label="@string/title_activity_telas_app" />
         <activity android:name=".telaCadastro" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment"
+    tools:context=".ui.dashboard.DashboardFragment"
     android:background="#363636">
-
 
     <ImageView
         android:id="@+id/imageViewIcAviao"
@@ -111,10 +110,26 @@
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        android:onClick="logout"/>
+        android:id="@+id/btnlogout"
+
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/shapeconfig"
+
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="25"
+
+        android:text="Sair"
+        android:textAllCaps="false"
+        android:textColor="#363636"
+        android:textSize="18sp">
+    </Button>
 
 </RelativeLayout>
