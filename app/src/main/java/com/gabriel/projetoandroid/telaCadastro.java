@@ -26,7 +26,7 @@ public class telaCadastro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_cadastro);
 
-        txtNome = findViewById(R.id.txtEmail);
+        txtNome = findViewById(R.id.txtNome);
         txtEmail = findViewById(R.id.txtEmail);
         txtSenha = findViewById(R.id.txtSenha);
     }
