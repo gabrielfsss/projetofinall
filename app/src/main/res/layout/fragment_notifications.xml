@@ -19,7 +19,7 @@
         android:paddingLeft="50dp"
 
         android:hint="Digite algo!"
-        android:textColorHint="#DCDCDC"
+        android:textColorHint="#808080"
         android:textSize="16sp"
 
         android:layout_alignParentBottom="true"
@@ -28,7 +28,6 @@
         android:textColor="#DCDCDC"
 
         android:drawablePadding="40dp"
-
         />
 
     <RelativeLayout
