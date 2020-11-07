@@ -4,66 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".telaCadastro"
-    android:background="@drawable/loginbackground">
+    android:background="@drawable/loginbackground"
+    tools:context=".telaCadastro">
 
 
     <EditText
-        android:id="@+id/editTextTextNomeCad"
+        android:id="@+id/txtEmail"
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:inputType="textPersonName"
-        android:hint="Nome"
-        android:textColorHint="#73F5F5F5"
-        android:textSize="20sp"
-        android:ems="10"
-
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
         android:drawableLeft="@drawable/ic_user"
+        android:ems="10"
+        android:hint="Nome"
+
+        android:inputType="textPersonName"
         android:paddingLeft="10dp"
 
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp" />
+        android:textColorHint="#73F5F5F5"
+        android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailCad"
+        android:id="@+id/txtEmail"
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:inputType="textPersonName"
-        android:hint="Email"
-        android:textColorHint="#73F5F5F5"
-        android:textSize="20sp"
-        android:ems="10"
-
-        android:drawableLeft="@drawable/ic_senha"
-        android:paddingLeft="10dp"
-
+        android:layout_below="@+id/txtEmail"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/editTextTextNomeCad"
-        android:layout_marginTop="50dp" />
-
-    <EditText
-        android:id="@+id/editTextTextSenhaCad"
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:inputType="textPersonName"
-        android:hint="Senha"
-        android:textColorHint="#73F5F5F5"
-        android:textSize="20sp"
-        android:ems="10"
-
-        android:drawableLeft="@drawable/ic_senha"
-        android:paddingLeft="10dp"
-
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/editTextTextEmailCad"
         android:layout_marginTop="50dp"
-        />
+        android:drawableLeft="@drawable/ic_senha"
+        android:ems="10"
+
+        android:hint="Email"
+        android:inputType="textPersonName"
+
+        android:paddingLeft="10dp"
+        android:textColorHint="#73F5F5F5"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtSenha"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/txtEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/ic_senha"
+        android:ems="10"
+
+        android:hint="Senha"
+        android:inputType="textPersonName"
+
+        android:paddingLeft="10dp"
+        android:textColorHint="#73F5F5F5"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnentrar"
@@ -72,12 +71,12 @@
         android:layout_height="40dp"
 
 
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="150dp"
-        android:layout_alignParentBottom="true"
         android:background="@drawable/buttonshape"
 
-        android:onClick="Entrar"
+        android:onClick="cadastrarUsuario"
 
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
