@@ -1,4 +1,4 @@
-package com.gabriel.projetoandroid.messages;
+package com.gabriel.projetoandroid;
 
 public class Messages {
 
