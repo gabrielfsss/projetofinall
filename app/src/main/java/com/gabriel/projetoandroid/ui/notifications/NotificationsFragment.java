@@ -19,7 +19,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.xwray.groupie.GroupAdapter;
 
-public class NotificationsFragment extends Fragment {
+public class NotificationsFragment extends Fragment{
 
     private EditText txtMessageChat;
     private FloatingActionButton btnSendMessage;
